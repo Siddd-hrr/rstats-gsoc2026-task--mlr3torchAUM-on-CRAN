@@ -37,6 +37,7 @@
 
 -   Aanlysis/Reason: I see 1 minority sample (R) in every batch with min_samples_per_stratum=1, shuffle=TRUE gives different indices 
     each epoch while shuffle=FALSE keeps them fixed, and fixing seed=1 makes repeated runs produce the same learned weights.
+    So, therefore the result matches the blog reults, as they give similar analysis of the log report. 
 
 
 
