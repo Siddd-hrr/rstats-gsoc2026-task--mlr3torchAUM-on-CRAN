@@ -1,5 +1,9 @@
 ## Easy-test
 
+### Prerequisites
+-   R (version 4.0 or higher)
+-   Rtools (Windows) or build-essential (Linux)
+
 ### Result 1
 - [Typical_Usage_Vignette](Results/Typical_usage.html)
 
