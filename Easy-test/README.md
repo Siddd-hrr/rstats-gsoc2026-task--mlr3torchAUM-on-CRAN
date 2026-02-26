@@ -1,6 +1,6 @@
 ## Easy-test
 
-## Results 1
+### Result 1
 - [Typical_Usage_Vignette](Results/Typical_usage.html)
 
 ### STEPS TO PRODUCE RESULT_1 
@@ -23,7 +23,11 @@
     )
 ```
 
+### Result 2
+- [Output log Report](Results/easy-test-report.txt)
+- [R-Script Code](Results/easy_test2.R)
 
+**Question: **
 
 
 
