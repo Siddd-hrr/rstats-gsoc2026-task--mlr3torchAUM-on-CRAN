@@ -383,6 +383,7 @@ spam_sc_task$col_roles$stratum &lt;- &quot;type&quot;
 spam_list &lt;- list(task=spam_sc_task)
 batch_sampler_class &lt;- mlr3torchAUM::batch_sampler_stratified(
   min_samples_per_stratum = 1)
+#&gt; ℹ Additional software needs to be downloaded and installed for torch to work correctly.
 batch_sampler_instance &lt;- batch_sampler_class(spam_list)
 (batch_dt &lt;- as.data.table(t(sapply(
   batch_sampler_instance$batch_list,
