@@ -25,9 +25,14 @@
 
 ### Result 2
 - [Output log Report](Results/easy-test-report.txt)
+
 - [R-Script Code](Results/easy_test2.R)
 
-**Question: **
+**Question: Are they consistent? **
+-   “Re-running the blog post code produced outputs consistent with the post"
+
+-   Aanlysis/Reason: I see 1 minority sample (R) in every batch with min_samples_per_stratum=1, shuffle=TRUE gives different indices 
+    each epoch while shuffle=FALSE keeps them fixed, and fixing seed=1 makes repeated runs produce the same learned weights.
 
 
 
